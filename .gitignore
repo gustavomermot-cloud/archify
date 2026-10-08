@@ -1,0 +1,89 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editores
+.vscode/
+.idea/
+*.sublime-*
+.vim/
+
+# Logs
+*.log
+logs/
+
+# Temporales
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Secretos (nunca commitear)
+*.env
+.env
+.env.local
+.env.*.local
+secrets/
+credentials/
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
+*.pfx
+
+# Workforce — nunca comitear nada operacional
+tenant-*.env
+master.env
+app.env
+backups/
+exports/
+dumps/
+*.sql.gz
+*.sql.gpg
+
+# Node (si algún día)
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# PHP
+vendor/
+composer.phar
+.phpunit.result.cache
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Mac
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Linux
+.directory
+.Trash-*
+
+# Archivos grandes accidentales
+*.iso
+*.dmg
+*.zip
+*.tar.gz
+
+# Draft / scratch personal
+_scratch/
+_drafts/
+TODO.local.md
+NOTES.local.md
